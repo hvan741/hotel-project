@@ -1,4 +1,64 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/Quicksand-Regular.eot");
+  src: url("../fonts/Quicksand-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand-Regular.woff") format("woff"), url("../fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: Montserrat; }
+
+h1, h2, h3 {
+  color: #1f2041;
+  text-transform: uppercase; }
+
+body {
+  color: rgba(31, 32, 65, 0.75); }
+
+.logo-wrapper {
+  margin: 30px;
+  display: flex; }
+
+.content {
+  display: flex;
+  margin-left: 150px; }
+
+.color-card {
+  display: flex;
+  margin-bottom: 20px; }
+  .color-card__box {
+    background-color: #1f2041;
+    width: 70px;
+    height: 70px;
+    border-radius: 6px; }
+  .color-card__text {
+    margin-left: 40px;
+    font-family: Quicksand;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 19px;
+    color: #1f2041; }
+  .color-card__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize; }
+
+.sample-row {
+  display: flex;
+  margin-left: 435px;
+  margin-bottom: 50px; }
+  .sample-row__title {
+    margin-right: 30px;
+    color: rgba(31, 32, 65, 0.25);
+    text-transform: capitalize; }

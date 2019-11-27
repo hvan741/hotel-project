@@ -31,7 +31,8 @@ gulp.task("sass", sassF);
 gulp.task("watch", function() {
   browserSync.init({
     server: {
-      baseDir: "./public"
+      baseDir: "./public",
+      index: "colors&types.html"
     }
   });
   gulp.watch("./src/**/*.pug", pugF);

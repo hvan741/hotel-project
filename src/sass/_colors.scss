@@ -1,0 +1,3 @@
+@function dark-shade($opacity) {
+    @return rgba(31, 32, 65, $opacity);
+} 
