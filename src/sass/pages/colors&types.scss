@@ -6,6 +6,11 @@
 .content {
     display: flex;
     margin-left: 150px;
+    margin-top: 67px;
+}
+
+.color-wrapper {
+    flex-shrink: 0;
 }
 
 .color-card {
@@ -36,14 +41,26 @@
     }
 }
 
-.sample-row {
-    display: flex;
-    margin-left: 435px;
-    margin-bottom: 50px;
+.sample-title {
+    color: dark-shade(0.25);
+    text-transform: capitalize;
+}
 
-    &__title {
-        margin-right: 30px;
-        color: dark-shade(0.25);
-        text-transform: capitalize;
+.sample-wrapper {
+    padding-right: 50px;
+    margin-left: 435px;
+    float: right;
+    &__grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 50px;
     }
+}
+
+.sample-title {
+    text-align: right;
+}
+
+.sample-text {
+    margin-left: 30px;
 }

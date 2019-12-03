@@ -4,7 +4,11 @@
 
 .content {
   display: flex;
-  margin-left: 150px; }
+  margin-left: 150px;
+  margin-top: 67px; }
+
+.color-wrapper {
+  flex-shrink: 0; }
 
 .color-card {
   display: flex;
@@ -27,11 +31,21 @@
     margin-bottom: 10px;
     text-transform: capitalize; }
 
-.sample-row {
-  display: flex;
+.sample-title {
+  color: dark-shade(0.25);
+  text-transform: capitalize; }
+
+.sample-wrapper {
+  padding-right: 50px;
   margin-left: 435px;
-  margin-bottom: 50px; }
-  .sample-row__title {
-    margin-right: 30px;
-    color: dark-shade(0.25);
-    text-transform: capitalize; }
+  float: right; }
+  .sample-wrapper__grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 50px; }
+
+.sample-title {
+  text-align: right; }
+
+.sample-text {
+  margin-left: 30px; }

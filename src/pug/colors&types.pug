@@ -18,33 +18,26 @@ block content
                         h2
                         .color-card__title=title
                         .color-card__subtitle=subtitle
-            +color-card('dark shade','#1F2041')
+            +color-card('dark shade 100%','#1F2041')
             +color-card('dark shade 75%','#1F2041','rgba(31, 32, 65, 0.75)')
             +color-card('dark shade 50%','#1F2041','rgba(31, 32, 65, 0.5)')
             +color-card('dark shade 25%',' #1F2041','rgba(31, 32, 65, 0.25)')
             +color-card('dark shade 5%',' #1F2041','rgba(31, 32, 65, 0.05)')
             +color-card('purple',' #BC9CFF','#BC9CFF')
             +color-card('green',' #6FCF97','#6FCF97')
-        .sample-wrapper
-            .sample-row
-                .sample-row__title 
-                    h1 h1
-                .sample-row__text 
-                    h1 This one is the sub-section or widget title
-            .sample-row
-                .sample-row__title 
-                    h2 h2
-                .sample-row__text 
+        .sample-wrapper 
+            .sample-wrapper__grid
+                h1.sample-title h1
+                .sample-text 
+                    h1 This one is the sub-section or widget titles
+                h2.sample-title h2
+                .sample-text 
                     h2 Next one is the item title inside widgets
-            .sample-row
-                .sample-row__title 
-                    h3 h3
-                .sample-row__text 
+                h3.sample-title h3
+                .sample-text 
                     h3 this is a label or cta text
-            .sample-row
-                .sample-row__title 
-                    | body
-                .sample-row__text 
+                p.sample-title body
+                .sample-text 
                     | This is the body text which is used for most of the design, like paragraphs, lists, etc.
 
 
