@@ -4,10 +4,24 @@
     padding: 0;
     font-family: Montserrat;
 }
-h1,h2,h3 {
+
+h1,
+h2,
+h3 {
     color: dark-shade(1);
     text-transform: uppercase;
 }
+
+h2 {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+h3 {
+    font-size: 12px;
+    line-height: 15px;
+}
+
 body {
     color: dark-shade(0.75);
 }

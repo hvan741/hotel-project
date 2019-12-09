@@ -32,7 +32,7 @@ gulp.task("watch", function() {
   browserSync.init({
     server: {
       baseDir: "./public",
-      index: "colors&types.html"
+      index: "form-elements.html"
     }
   });
   gulp.watch("./src/**/*.pug", pugF);
