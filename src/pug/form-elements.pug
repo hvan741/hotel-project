@@ -7,21 +7,40 @@ block content
         <path d="M24 48C10.7647 48 0 37.2353 0 24C0 10.7647 10.7647 0 24 0C37.2353 0 48 10.7647 48 24C48 37.2353 37.2353 48 24 48ZM24 2.82353C12.3176 2.82353 2.82353 12.3176 2.82353 24C2.82353 35.6824 12.3176 45.1765 24 45.1765C35.6824 45.1765 45.1765 35.6824 45.1765 24C45.1765 12.3176 35.6824 2.82353 24 2.82353Z" fill="#1F2041" fill-opacity="0.25"/>
         </svg>
     .content-elem
-        .form-elem
-            .form-group.my-20
-                h3 text field
-                small default
-                input(type="email", name="email" placeholder='Email')
-            .form-group.my-20
-                h3 text field
-                small hover/focus
-                input(type="email", name="email" placeholder='Email')
-            .form-group.my-20   
-                h3 dropdown
-                small default
-                select
-                    option(value="#") Сколько гостей
-            .form-group.my-20
-                h3 masked text field
-                small default
-                input(type="date", name="email" placeholder='Email')
+        .form-group.my-20
+            h3 text field
+            small default
+            input(type="email" name="email" placeholder='Email')    
+        .form-group.my-20
+            h3 text field
+            small hover/focus
+            input(type="email" name="email" placeholder='Email')    
+        .form-group.my-20   
+            h3 dropdown
+            small default
+            select
+                option(value="#") Сколько гостей    
+        .form-group.my-20
+            h3 masked text field
+            small default
+            input(type="date" name="email" placeholder='Email',required)
+        .form-wrapper.my-20
+            .form-group.form-group_small
+                h3 date dropdown
+                input(type='date' name='email')
+            .form-group.form-group_small
+                h3 date dropdown
+                input(type="date" name="email")
+        .form-group.my-20.form-group_av
+            h3 filter date dropdown
+            select
+                option(value="#") 19 авг - 23 авг
+        .form-group.my-100.form-group_av.form-group_arrow
+            h3 subscription text field
+            input(type="email", name="email" placeholder='Email')
+        .form-group
+            h3 dropdown
+            select(name="#", value='2 спальни, 2 кровати')
+                option(value="#") 
+                
+
